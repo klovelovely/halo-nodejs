@@ -8,9 +8,9 @@ var defaultEncoding = 'utf-8';
 // 获取当前执行的程序文件所在路径
 var fileDir = process.cwd();
 // 声明要创建和读取的目标文件的文件名
-var fileName = 'a.txt';
+var targetFileName = 'a.txt';
 // 组合路径 + 文件名
-var filePath = fileDir + '\\' + fileName;
+var filePath = fileDir + '\\' + targetFileName;
 // 要写到文件里的内容
 var fileContent = '为了让大家的笔记本更炫酷更卡哇伊, prince影_子给大家展示下各种外壳膜照片跟实拍图照片哦~\r\n\r\n';
 
