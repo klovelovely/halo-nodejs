@@ -62,3 +62,4 @@ function readFile(filePath, encoding){
         }
     });
 }
+

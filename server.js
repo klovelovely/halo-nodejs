@@ -1,12 +1,12 @@
-// ÒıÓÃhttpÄ£¿é
+// å¼•ç”¨httpæ¨¡å—
 var http = require("http");
 
-// ´´½¨·şÎñ¶Ë ¼àÌı2014¶Ë¿Ú
+// åˆ›å»ºæœåŠ¡ç«¯ ç›‘å¬2014ç«¯å£
 http
     .createServer(function (request, response) {
-        // Êä³öÍøÒ³Í·ĞÅÏ¢£¬200×´Ì¬
+        // è¾“å‡ºç½‘é¡µå¤´ä¿¡æ¯ï¼Œ200çŠ¶æ€
         response.writeHead(200, {
-            // ÍøÒ³MIMEÀàĞÍ
+            // ç½‘é¡µMIMEç±»å‹
             "content-type": "text/html"
         });
 
@@ -14,7 +14,7 @@ http
 
         console.log("new visitor!");
 
-        // ½áÊøÊä³ö
+        // ç»“æŸè¾“å‡º 
         response.end();
     })
     .listen();
